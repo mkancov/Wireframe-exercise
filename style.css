@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    
+}
+
+header {
+    background-color: grey;
+    margin-bottom: 15px;
+}
+
+
+img {
+    margin: 15px;
+}
+
+
+li{
+    margin: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+footer {
+    background-color: gray;
+    height: 150px;
+}
+
+
+li > div > p {
+    height: 350px;
+    overflow: scroll;
+    width: 400px;
+    text-align: left;
+}
+   
+section > ul > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    text-align: left;
+}
+
+
+
+
