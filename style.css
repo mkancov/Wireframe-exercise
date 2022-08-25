@@ -5,17 +5,22 @@ body {
 
 header {
     background-color: grey;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+ul li {
+    display: inline block;
 }
 
 
 img {
-    margin: 15px;
+    margin: 25px;
 }
 
 
 li{
-    margin: 35px;
+    margin: 40px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -29,7 +34,6 @@ footer {
 
 li > div > p {
     height: 350px;
-    overflow: scroll;
     width: 400px;
     text-align: left;
 }
